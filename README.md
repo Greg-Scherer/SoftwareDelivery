@@ -52,3 +52,47 @@
 
 8. **Manutenibilidade**  
    O sistema deve permitir atualizações e correções de forma simples.
+
+
+
+
+
+
+
+## Testes do Sistema
+
+### Teste de Cadastro de Usuário
+
+**Objetivo:**  
+Verificar se o sistema realiza corretamente o cadastro de um novo usuário.
+
+**Passos do teste:**  
+1. Acessar a tela de cadastro.  
+2. Preencher os campos obrigatórios: nome, email, telefone e senha.  
+3. Clicar no botão de cadastro.  
+
+**Resultado esperado:**  
+O sistema deve cadastrar o usuário com sucesso e exibir uma mensagem de confirmação ou redirecionar para a tela inicial/login.
+
+**Critério de sucesso:**  
+O usuário deve ser registrado no sistema sem erros, desde que os dados informados sejam válidos.
+
+---
+
+### Teste do Movimento de Entrega
+
+**Objetivo:**  
+Verificar se o sistema atualiza corretamente o andamento da entrega do pedido.
+
+**Passos do teste:**  
+1. Realizar um pedido no aplicativo.  
+2. Confirmar o pedido no sistema.  
+3. Alterar o status do pedido para “Em preparo”.  
+4. Alterar o status para “Saiu para entrega”.  
+5. Finalizar com o status “Entregue”.  
+
+**Resultado esperado:**  
+O usuário deve conseguir acompanhar a mudança de status do pedido em tempo real ou de forma atualizada na tela de acompanhamento.
+
+**Critério de sucesso:**  
+O sistema deve exibir corretamente cada etapa da entrega até a conclusão do pedido.
